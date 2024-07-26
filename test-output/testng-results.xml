@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-14T14:20:49 IST" name="Amazon" finished-at="2024-07-14T14:26:31 IST" duration-ms="342539">
+    <groups>
+    </groups>
+    <test started-at="2024-07-14T14:20:49 IST" name="Test" finished-at="2024-07-14T14:26:31 IST" duration-ms="342539">
+      <class name="amazon_test.PaymentGatewayValidation">
+        <test-method signature="payment_gateway_validation()[pri:0, instance:amazon_test.PaymentGatewayValidation@5fe94a96]" started-at="2024-07-14T14:25:43 IST" name="payment_gateway_validation" finished-at="2024-07-14T14:26:31 IST" duration-ms="48178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment_gateway_validation -->
+      </class> <!-- amazon_test.PaymentGatewayValidation -->
+      <class name="amazon_test.Orders">
+        <test-method signature="orders()[pri:0, instance:amazon_test.Orders@33d512c1]" started-at="2024-07-14T14:23:39 IST" name="orders" finished-at="2024-07-14T14:23:59 IST" duration-ms="19503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orders -->
+      </class> <!-- amazon_test.Orders -->
+      <class name="amazon_test.SearchBarTest">
+        <test-method signature="search_bar_test()[pri:0, instance:amazon_test.SearchBarTest@397fbdb]" started-at="2024-07-14T14:23:11 IST" name="search_bar_test" finished-at="2024-07-14T14:23:39 IST" duration-ms="28835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_bar_test -->
+      </class> <!-- amazon_test.SearchBarTest -->
+      <class name="amazon_test.Payment">
+        <test-method signature="payment()[pri:0, instance:amazon_test.Payment@515c6049]" started-at="2024-07-14T14:23:59 IST" name="payment" finished-at="2024-07-14T14:24:40 IST" duration-ms="40999" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "$499.00"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "$499.00"
+at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+at java.base/java.lang.Float.parseFloat(Float.java:476)
+at amazon_test.Payment.payment(Payment.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+      </class> <!-- amazon_test.Payment -->
+      <class name="amazon_test.LogoutTest">
+        <test-method signature="logout_test()[pri:0, instance:amazon_test.LogoutTest@65fb9ffc]" started-at="2024-07-14T14:21:20 IST" name="logout_test" finished-at="2024-07-14T14:21:40 IST" duration-ms="20664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_test -->
+      </class> <!-- amazon_test.LogoutTest -->
+      <class name="amazon_test.LoginTest">
+        <test-method signature="login_test()[pri:0, instance:amazon_test.LoginTest@5656be13]" started-at="2024-07-14T14:20:49 IST" name="login_test" finished-at="2024-07-14T14:21:06 IST" duration-ms="17538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test -->
+      </class> <!-- amazon_test.LoginTest -->
+      <class name="amazon_test.DeleteFromCart">
+        <test-method signature="delete_from_cart()[pri:0, instance:amazon_test.DeleteFromCart@3590fc5b]" started-at="2024-07-14T14:22:38 IST" name="delete_from_cart" finished-at="2024-07-14T14:23:11 IST" duration-ms="32724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_from_cart -->
+      </class> <!-- amazon_test.DeleteFromCart -->
+      <class name="amazon_test.CreateAccount">
+        <test-method signature="create_account()[pri:0, instance:amazon_test.CreateAccount@1bb5a082]" started-at="2024-07-14T14:21:56 IST" name="create_account" finished-at="2024-07-14T14:22:07 IST" duration-ms="11089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_account -->
+      </class> <!-- amazon_test.CreateAccount -->
+      <class name="amazon_test.Search">
+        <test-method signature="search()[pri:0, instance:amazon_test.Search@78691363]" started-at="2024-07-14T14:22:07 IST" name="search" finished-at="2024-07-14T14:22:33 IST" duration-ms="25702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- amazon_test.Search -->
+      <class name="amazon_test.AddItems">
+        <test-method signature="add_items()[pri:0, instance:amazon_test.AddItems@41d477ed]" started-at="2024-07-14T14:22:33 IST" name="add_items" finished-at="2024-07-14T14:22:38 IST" duration-ms="4982" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='nav-link-accountList']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ed793769980ab395564f06ba906cc70, findElement {using=xpath, value=//a[@id='nav-link-accountList']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\DARSHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61315}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61315/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed793769980ab395564f06ba906cc70]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='nav-link-accountList']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ed793769980ab395564f06ba906cc70, findElement {using=xpath, value=//a[@id='nav-link-accountList']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\DARSHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61315}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61315/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed793769980ab395564f06ba906cc70
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at amazon_test.AddItems.add_items(AddItems.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_items -->
+      </class> <!-- amazon_test.AddItems -->
+      <class name="amazon_test.ForgotPassword">
+        <test-method signature="forgot_password()[pri:0, instance:amazon_test.ForgotPassword@3e694b3f]" started-at="2024-07-14T14:21:40 IST" name="forgot_password" finished-at="2024-07-14T14:21:56 IST" duration-ms="15906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_password -->
+      </class> <!-- amazon_test.ForgotPassword -->
+      <class name="amazon_test.Amount_validationD">
+        <test-method signature="amount_validation_d()[pri:0, instance:amazon_test.Amount_validationD@639c2c1d]" started-at="2024-07-14T14:24:40 IST" name="amount_validation_d" finished-at="2024-07-14T14:25:43 IST" duration-ms="63235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amount_validation_d -->
+      </class> <!-- amazon_test.Amount_validationD -->
+      <class name="amazon_test.SignIn_InvalidCred">
+        <test-method signature="invalid_credentials()[pri:0, instance:amazon_test.SignIn_InvalidCred@59474f18]" started-at="2024-07-14T14:21:06 IST" name="invalid_credentials" finished-at="2024-07-14T14:21:19 IST" duration-ms="13089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_credentials -->
+      </class> <!-- amazon_test.SignIn_InvalidCred -->
+    </test> <!-- Test -->
+  </suite> <!-- Amazon -->
+</testng-results>

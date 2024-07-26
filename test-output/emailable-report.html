@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Amazon</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">342,539</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Amazon</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">amazon_test.AddItems</td><td><a href="#m0">add_items</a></td><td rowspan="1">1720947153368</td><td rowspan="1">4982</td></tr><tr class="failedodd"><td rowspan="1">amazon_test.Payment</td><td><a href="#m1">payment</a></td><td rowspan="1">1720947239432</td><td rowspan="1">40999</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">amazon_test.Amount_validationD</td><td><a href="#m2">amount_validation_d</a></td><td rowspan="1">1720947280446</td><td rowspan="1">63235</td></tr><tr class="passedodd"><td rowspan="1">amazon_test.CreateAccount</td><td><a href="#m3">create_account</a></td><td rowspan="1">1720947116574</td><td rowspan="1">11089</td></tr><tr class="passedeven"><td rowspan="1">amazon_test.DeleteFromCart</td><td><a href="#m4">delete_from_cart</a></td><td rowspan="1">1720947158354</td><td rowspan="1">32724</td></tr><tr class="passedodd"><td rowspan="1">amazon_test.ForgotPassword</td><td><a href="#m5">forgot_password</a></td><td rowspan="1">1720947100664</td><td rowspan="1">15906</td></tr><tr class="passedeven"><td rowspan="1">amazon_test.LoginTest</td><td><a href="#m6">login_test</a></td><td rowspan="1">1720947049371</td><td rowspan="1">17538</td></tr><tr class="passedodd"><td rowspan="1">amazon_test.LogoutTest</td><td><a href="#m7">logout_test</a></td><td rowspan="1">1720947080000</td><td rowspan="1">20664</td></tr><tr class="passedeven"><td rowspan="1">amazon_test.Orders</td><td><a href="#m8">orders</a></td><td rowspan="1">1720947219929</td><td rowspan="1">19503</td></tr><tr class="passedodd"><td rowspan="1">amazon_test.PaymentGatewayValidation</td><td><a href="#m9">payment_gateway_validation</a></td><td rowspan="1">1720947343681</td><td rowspan="1">48178</td></tr><tr class="passedeven"><td rowspan="1">amazon_test.Search</td><td><a href="#m10">search</a></td><td rowspan="1">1720947127666</td><td rowspan="1">25702</td></tr><tr class="passedodd"><td rowspan="1">amazon_test.SearchBarTest</td><td><a href="#m11">search_bar_test</a></td><td rowspan="1">1720947191094</td><td rowspan="1">28835</td></tr><tr class="passedeven"><td rowspan="1">amazon_test.SignIn_InvalidCred</td><td><a href="#m12">invalid_credentials</a></td><td rowspan="1">1720947066909</td><td rowspan="1">13089</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">amazon_test.AddItems#add_items</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;nav-link-accountList&apos;]&quot;}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ed793769980ab395564f06ba906cc70, findElement {using=xpath, value=//a[@id=&apos;nav-link-accountList&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\DARSHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61315}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61315/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed793769980ab395564f06ba906cc70
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at amazon_test.AddItems.add_items(AddItems.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">amazon_test.Payment#payment</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;$499.00&quot;
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.base/java.lang.Float.parseFloat(Float.java:476)
+	at amazon_test.Payment.payment(Payment.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">amazon_test.Amount_validationD#amount_validation_d</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">amazon_test.CreateAccount#create_account</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">amazon_test.DeleteFromCart#delete_from_cart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">amazon_test.ForgotPassword#forgot_password</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">amazon_test.LoginTest#login_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">amazon_test.LogoutTest#logout_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">amazon_test.Orders#orders</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">amazon_test.PaymentGatewayValidation#payment_gateway_validation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">amazon_test.Search#search</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">amazon_test.SearchBarTest#search_bar_test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">amazon_test.SignIn_InvalidCred#invalid_credentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

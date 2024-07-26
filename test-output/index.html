@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Amazon" class="navigator-link">
+              <span class="suite-name border-failed">Amazon</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Amazon" class="navigator-link ">
+                    <span>C:\Users\DARSHAN VA\eclipse-workspace\TestingMiniProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Amazon" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Amazon" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Amazon" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Amazon" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Amazon" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Amazon" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Amazon" class="hide-methods failed suite-Amazon"> (hide)</a> <!-- hide-methods failed suite-Amazon -->
+                      <a href="#" panel-name="suite-Amazon" class="show-methods failed suite-Amazon"> (show)</a> <!-- show-methods failed suite-Amazon -->
+                    </span>
+                    <div class="method-list-content failed suite-Amazon">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.AddItems" class="method navigator-link" hash-for-method="add_items">add_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.Payment" class="method navigator-link" hash-for-method="payment">payment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Amazon -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Amazon" class="hide-methods passed suite-Amazon"> (hide)</a> <!-- hide-methods passed suite-Amazon -->
+                      <a href="#" panel-name="suite-Amazon" class="show-methods passed suite-Amazon"> (show)</a> <!-- show-methods passed suite-Amazon -->
+                    </span>
+                    <div class="method-list-content passed suite-Amazon">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.Amount_validationD" class="method navigator-link" hash-for-method="amount_validation_d">amount_validation_d</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.CreateAccount" class="method navigator-link" hash-for-method="create_account">create_account</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.DeleteFromCart" class="method navigator-link" hash-for-method="delete_from_cart">delete_from_cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.ForgotPassword" class="method navigator-link" hash-for-method="forgot_password">forgot_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.SignIn_InvalidCred" class="method navigator-link" hash-for-method="invalid_credentials">invalid_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.LoginTest" class="method navigator-link" hash-for-method="login_test">login_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.LogoutTest" class="method navigator-link" hash-for-method="logout_test">logout_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.Orders" class="method navigator-link" hash-for-method="orders">orders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.PaymentGatewayValidation" class="method navigator-link" hash-for-method="payment_gateway_validation">payment_gateway_validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.Search" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon" title="amazon_test.SearchBarTest" class="method navigator-link" hash-for-method="search_bar_test">search_bar_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Amazon -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Amazon" class="panel Amazon">
+          <div class="suite-Amazon-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">amazon_test.Payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="payment">
+                  </a> <!-- payment -->
+                  <span class="method-name">payment</span>
+                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;$499.00&quot;
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.base/java.lang.Float.parseFloat(Float.java:476)
+	at amazon_test.Payment.payment(Payment.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-failed -->
+          <div class="suite-Amazon-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">amazon_test.AddItems</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_items">
+                  </a> <!-- add_items -->
+                  <span class="method-name">add_items</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;nav-link-accountList&apos;]&quot;}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ed793769980ab395564f06ba906cc70, findElement {using=xpath, value=//a[@id=&apos;nav-link-accountList&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\DARSHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61315}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61315/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed793769980ab395564f06ba906cc70
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at amazon_test.AddItems.add_items(AddItems.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-failed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.SignIn_InvalidCred</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_credentials">
+                  </a> <!-- invalid_credentials -->
+                  <span class="method-name">invalid_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout_test">
+                  </a> <!-- logout_test -->
+                  <span class="method-name">logout_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.Amount_validationD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="amount_validation_d">
+                  </a> <!-- amount_validation_d -->
+                  <span class="method-name">amount_validation_d</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_test">
+                  </a> <!-- login_test -->
+                  <span class="method-name">login_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.ForgotPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgot_password">
+                  </a> <!-- forgot_password -->
+                  <span class="method-name">forgot_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.PaymentGatewayValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="payment_gateway_validation">
+                  </a> <!-- payment_gateway_validation -->
+                  <span class="method-name">payment_gateway_validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.CreateAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_account">
+                  </a> <!-- create_account -->
+                  <span class="method-name">create_account</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.Orders</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orders">
+                  </a> <!-- orders -->
+                  <span class="method-name">orders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.DeleteFromCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="delete_from_cart">
+                  </a> <!-- delete_from_cart -->
+                  <span class="method-name">delete_from_cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+          <div class="suite-Amazon-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_test.SearchBarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_bar_test">
+                  </a> <!-- search_bar_test -->
+                  <span class="method-name">search_bar_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon-class-passed -->
+        </div> <!-- panel Amazon -->
+        <div panel-name="test-xml-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DARSHAN VA\eclipse-workspace\TestingMiniProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Amazon&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;amazon_test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;amazon_test.SignIn_InvalidCred&quot;/&gt;
+      &lt;class name=&quot;amazon_test.LogoutTest&quot;/&gt;
+      &lt;class name=&quot;amazon_test.ForgotPassword&quot;/&gt;
+      &lt;class name=&quot;amazon_test.CreateAccount&quot;/&gt;
+      &lt;class name=&quot;amazon_test.Search&quot;/&gt;
+      &lt;class name=&quot;amazon_test.AddItems&quot;/&gt;
+      &lt;class name=&quot;amazon_test.DeleteFromCart&quot;/&gt;
+      &lt;class name=&quot;amazon_test.SearchBarTest&quot;/&gt;
+      &lt;class name=&quot;amazon_test.Orders&quot;/&gt;
+      &lt;class name=&quot;amazon_test.Payment&quot;/&gt;
+      &lt;class name=&quot;amazon_test.Amount_validationD&quot;/&gt;
+      &lt;class name=&quot;amazon_test.PaymentGatewayValidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Amazon --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Amazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Amazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Amazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Amazon');
+function tableData_Amazon() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'amount_validation_d')
+data.setCell(0, 2, 'amazon_test.Amount_validationD')
+data.setCell(0, 3, 63235);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'payment_gateway_validation')
+data.setCell(1, 2, 'amazon_test.PaymentGatewayValidation')
+data.setCell(1, 3, 48178);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'payment')
+data.setCell(2, 2, 'amazon_test.Payment')
+data.setCell(2, 3, 40999);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'delete_from_cart')
+data.setCell(3, 2, 'amazon_test.DeleteFromCart')
+data.setCell(3, 3, 32724);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'search_bar_test')
+data.setCell(4, 2, 'amazon_test.SearchBarTest')
+data.setCell(4, 3, 28835);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'search')
+data.setCell(5, 2, 'amazon_test.Search')
+data.setCell(5, 3, 25702);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'logout_test')
+data.setCell(6, 2, 'amazon_test.LogoutTest')
+data.setCell(6, 3, 20664);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'orders')
+data.setCell(7, 2, 'amazon_test.Orders')
+data.setCell(7, 3, 19503);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'login_test')
+data.setCell(8, 2, 'amazon_test.LoginTest')
+data.setCell(8, 3, 17538);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'forgot_password')
+data.setCell(9, 2, 'amazon_test.ForgotPassword')
+data.setCell(9, 3, 15906);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'invalid_credentials')
+data.setCell(10, 2, 'amazon_test.SignIn_InvalidCred')
+data.setCell(10, 3, 13089);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'create_account')
+data.setCell(11, 2, 'amazon_test.CreateAccount')
+data.setCell(11, 3, 11089);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'add_items')
+data.setCell(12, 2, 'amazon_test.AddItems')
+data.setCell(12, 3, 4982);
+window.suiteTableData['Amazon']= { tableData: data, tableDiv: 'times-div-Amazon'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Amazon">
+              </div> <!-- times-div-Amazon -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Amazon</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Amazon" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login_test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.SignIn_InvalidCred</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalid_credentials</span>
+                <span class="method-start">17538 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logout_test</span>
+                <span class="method-start">30629 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.ForgotPassword</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">forgot_password</span>
+                <span class="method-start">51293 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.CreateAccount</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">create_account</span>
+                <span class="method-start">67203 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.Search</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">78295 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.AddItems</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">add_items</span>
+                <span class="method-start">103997 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.DeleteFromCart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">delete_from_cart</span>
+                <span class="method-start">108983 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.SearchBarTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">search_bar_test</span>
+                <span class="method-start">141723 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.Orders</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">orders</span>
+                <span class="method-start">170558 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.Payment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">payment</span>
+                <span class="method-start">190061 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.Amount_validationD</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">amount_validation_d</span>
+                <span class="method-start">231075 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_test.PaymentGatewayValidation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">payment_gateway_validation</span>
+                <span class="method-start">294310 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
